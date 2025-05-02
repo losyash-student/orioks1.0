@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+    <style>
+        body {color: #aa2112}
+    </style>
+    <head>
+        <meta charset="utf-8">
+        <title>Студенты</title>
+    </head>
+    <body>
+        <h1>База данных студентов</h1>
+        <input type="text" id="inputID" placeholder="ID" required />
+        <input type="text" id="inputName" placeholder="Имя" required />
+        <input type="text" id="inputSurname" placeholder="Фамилия" required />
+        <input type="text" id="inputMark" placeholder="Оценка" required />
+        <button onclick="getMessage()">Получить</button>
+        <button onclick="sendMessage()">Отправить</button>
+        <button onclick="delMessage()">Удалить</button>
+        <div id="table"></div>
+        <script src="./script.js"></script>
+    </body>
+</html>
